@@ -1,0 +1,95 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fff0f6;
+  color: #4b1c38;
+  text-align: center;
+  margin: 0;
+  padding: 0 1rem 3rem;
+}
+
+.hero {
+  background: linear-gradient(135deg, #f8bbd0, #e1bee7);
+  padding: 3rem 1rem;
+  border-radius: 0 0 2rem 2rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.countdown {
+  margin: 2rem 0;
+}
+
+#timer {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ad1457;
+}
+
+.details {
+  margin: 2rem 0;
+}
+
+.btn {
+  background-color: #ad1457;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.gallery {
+  margin: 2rem 0;
+}
+
+.gallery img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.guestbook {
+  margin: 2rem 0;
+}
+
+#guestForm input,
+#guestForm textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ad1457;
+  font-size: 1rem;
+}
+
+#guestForm button {
+  background-color: #ad1457;
+  color: white;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#guestMessages {
+  margin-top: 1rem;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  color: #6a1b4d;
+}
